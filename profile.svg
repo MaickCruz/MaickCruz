@@ -8,50 +8,34 @@
 >
   <title id="title">Maick — Neofetch Profile</title>
   <desc id="desc">
-    Neofetch-style GitHub profile with Pikachu ASCII art and developer information.
+    Neofetch-style GitHub profile with ASCII art and developer information.
   </desc>
 
-  <!-- =========================
-       CONFIG
-       ========================= -->
-
-  <!-- Background -->
-  <rect width="100%" height="100%" fill="#0d1117"/>
-
-  <!--
-    Main colors
-
-    Background: #0d1117
-    ASCII:      #c9d1d9
-    Accent:     #58a6ff
-
-    Change #58a6ff if you want another accent color.
-  -->
-
+  <!-- Fundo -->
+  <rect width="100%" height="100%" fill="#212830"/>
 
   <!-- =========================
-       TERMINAL COMMAND
+       TERMINAL PROMPT
        ========================= -->
-
   <g
     font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', monospace"
     font-size="25"
-    fill="#58a6ff"
   >
-    <text x="38" y="48">╭─maick@github ~</text>
-    <text x="38" y="84">╰─$ neofetch</text>
+  <text x="38" y="48"><tspan fill="#ffffff">╭─</tspan><tspan fill="#ff4d4d">maick</tspan><tspan fill="#ffffff">@</tspan><tspan fill="#ff4d4d">github</tspan><tspan fill="#ffffff"> ~</tspan></text>
+
+    <text x="38" y="84">
+      <tspan fill="#ffffff">╰─$ neofetch</tspan>
+    </text>
   </g>
 
-
   <!-- =========================
-       PIKACHU ASCII
+       POKEMON ASCII
        ========================= -->
-
   <text
     x="45"
     y="135"
     font-family="'DejaVu Sans Mono', 'Noto Sans Mono', monospace"
-    font-size="23"
+    font-size="21"
     fill="#c9d1d9"
     xml:space="preserve"
   >
@@ -81,41 +65,31 @@
     <tspan x="45" dy="28">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠛⠛⠿⠿⣿⣿⣿⣿⣿⣿⠿⠿⠿⠛⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
   </text>
 
-
   <!-- =========================
        PROFILE
        ========================= -->
+  <g font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', monospace" font-size="24">
 
-  <g
-    font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', monospace"
-    font-size="24"
-    fill="#58a6ff"
-  >
-
-    <!-- Header -->
-    <text x="1000" y="180" font-weight="bold">maick@github</text>
-    <text x="1000" y="212">────────────</text>
-
+    <!-- Cabeçalho da direita -->
+    <text x="990" y="180"><tspan fill="#ff4d4d">maick</tspan><tspan fill="#ffffff">@</tspan><tspan fill="#ff4d4d">github</tspan></text>
+    <text x="990" y="212" fill="#ffffff">------------</text>
 
     <!-- Labels -->
-    <g font-weight="bold">
-      <text x="1000" y="270">Role</text>
-      <text x="1000" y="310">Focus</text>
-      <text x="1000" y="350">Backend</text>
-      <text x="1000" y="390">Frontend</text>
-      <text x="1000" y="430">Database</text>
-      <text x="1000" y="470">Project</text>
-      <text x="1000" y="510">OS</text>
-      <text x="1000" y="550">Editor</text>
-      <text x="1000" y="590">Education</text>
-      <text x="1000" y="630">Tools</text>
-      <text x="1000" y="670">Learning</text>
-      <text x="1000" y="710">Status</text>
+    <g fill="#ff4d4d" font-weight="bold">
+      <text x="990" y="270">Role</text>
+      <text x="990" y="310">Focus</text>
+      <text x="990" y="350">Backend</text>
+      <text x="990" y="390">Frontend</text>
+      <text x="990" y="430">Database</text>
+      <text x="990" y="470">Project</text>
+      <text x="990" y="510">OS</text>
+      <text x="990" y="550">Editor</text>
+      <text x="990" y="590">Education</text>
+      <text x="990" y="630">Tools</text>
     </g>
 
-
-    <!-- Separators -->
-    <g>
+    <!-- Dois pontos -->
+    <g fill="#ffffff">
       <text x="1145" y="270">:</text>
       <text x="1145" y="310">:</text>
       <text x="1145" y="350">:</text>
@@ -126,27 +100,21 @@
       <text x="1145" y="550">:</text>
       <text x="1145" y="590">:</text>
       <text x="1145" y="630">:</text>
-      <text x="1145" y="670">:</text>
-      <text x="1145" y="710">:</text>
     </g>
 
-
-    <!-- Values -->
-    <g>
+    <!-- Valores -->
+    <g fill="#ffffff">
       <text x="1175" y="270">Full-Stack Developer</text>
       <text x="1175" y="310">Backend / Web</text>
       <text x="1175" y="350">Java / Spring Boot</text>
-      <text x="1175" y="390">React</text>
+      <text x="1175" y="390">React Js</text>
       <text x="1175" y="430">MySQL</text>
       <text x="1175" y="470">Yggdrasil ERP</text>
       <text x="1175" y="510">Arch Linux</text>
       <text x="1175" y="550">Eclipse / VS Code</text>
       <text x="1175" y="590">ADS @ Facens</text>
       <text x="1175" y="630">Git / Maven / Linux</text>
-      <text x="1175" y="670">Software Architecture</text>
-      <text x="1175" y="710">building systems</text>
     </g>
 
   </g>
-
 </svg>
