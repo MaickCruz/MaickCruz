@@ -35,7 +35,7 @@
     x="45"
     y="135"
     font-family="'DejaVu Sans Mono', 'Noto Sans Mono', monospace"
-    font-size="21"
+    font-size="18"
     fill="#c9d1d9"
     xml:space="preserve"
   >
@@ -71,50 +71,64 @@
   <g font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', monospace" font-size="24">
 
     <!-- Cabeçalho da direita -->
-    <text x="990" y="180"><tspan fill="#FF1C60">maick</tspan><tspan fill="#ffffff">@</tspan><tspan fill="#FF1C60">github</tspan></text>
-    <text x="990" y="212" fill="#ffffff">------------</text>
+    <text x="870" y="200"><tspan fill="#FF1C60">maick</tspan><tspan fill="#ffffff">@</tspan><tspan fill="#FF1C60">github</tspan></text>
+    <text x="840" y="230" fill="#ffffff">╭──────────────developer─────────────╮</text>
 
     <!-- Labels -->
     <g fill="#FF1C60" font-weight="bold">
-      <text x="990" y="270">Role</text>
-      <text x="990" y="310">Focus</text>
-      <text x="990" y="350">Backend</text>
-      <text x="990" y="390">Frontend</text>
-      <text x="990" y="430">Database</text>
-      <text x="990" y="470">Project</text>
-      <text x="990" y="510">OS</text>
-      <text x="990" y="550">Editor</text>
-      <text x="990" y="590">Education</text>
-      <text x="990" y="630">Tools</text>
+      <text x="870" y="270">Role</text>
+      <text x="870" y="300">Backend</text>
+      <text x="870" y="330">Frontend</text>
+      <text x="870" y="360">Database</text>
+      <text x="870" y="390">Tools</text>
     </g>
 
     <!-- Dois pontos -->
     <g fill="#ffffff">
-      <text x="1145" y="270">:</text>
-      <text x="1145" y="310">:</text>
-      <text x="1145" y="350">:</text>
-      <text x="1145" y="390">:</text>
-      <text x="1145" y="430">:</text>
-      <text x="1145" y="470">:</text>
-      <text x="1145" y="510">:</text>
-      <text x="1145" y="550">:</text>
-      <text x="1145" y="590">:</text>
-      <text x="1145" y="630">:</text>
+      <text x="1025" y="270">:</text>
+      <text x="1025" y="300">:</text>
+      <text x="1025" y="330">:</text>
+      <text x="1025" y="360">:</text>
+      <text x="1025" y="390">:</text>
     </g>
 
     <!-- Valores -->
     <g fill="#ffffff">
-      <text x="1175" y="270">Full-Stack Developer</text>
-      <text x="1175" y="310">Backend / Web</text>
-      <text x="1175" y="350">Java / Spring Boot</text>
-      <text x="1175" y="390">React Js</text>
-      <text x="1175" y="430">MySQL</text>
-      <text x="1175" y="470">Yggdrasil ERP</text>
-      <text x="1175" y="510">Arch Linux</text>
-      <text x="1175" y="550">Eclipse / VS Code</text>
-      <text x="1175" y="590">ADS @ Facens</text>
-      <text x="1175" y="630">Git / Maven / Linux</text>
+      <text x="1055" y="270">Full-Stack Developer</text>
+      <text x="1055" y="300">Java / Spring Boot</text>
+      <text x="1055" y="330">React Js</text>
+      <text x="1055" y="360">MySQL / MongoDB</text>
+      <text x="1055" y="390">Git / Maven</text>
     </g>
+    <text x="840" y="430" fill="#ffffff">╰────────────────────────────────────╯</text>
+
+    <text x="840" y="460" fill="#ffffff">╭──────────────profile───────────────╮</text>
+    
+    <g fill="#FF1C60" font-weight="bold">
+      <text x="870" y="500">Location</text>
+      <text x="870" y="530">Education</text>
+      <text x="870" y="560">Project</text>
+      <text x="870" y="590">Learning</text>
+      <text x="870" y="620">OS</text>
+    </g>
+
+    <g fill="#ffffff">
+      <text x="1025" y="500">:</text>
+      <text x="1025" y="530">:</text>
+      <text x="1025" y="560">:</text>
+      <text x="1025" y="590">:</text>
+      <text x="1025" y="620">:</text>
+    </g>
+
+    <g fill="#ffffff">
+      <text x="1055" y="500">Sorocaba SP</text>
+      <text x="1055" y="530">ADS @ FACENS</text>
+      <text x="1055" y="560">Yggdrasil ERP</text>
+      <text x="1055" y="590">Software Architecture</text>
+      <text x="1055" y="620">Arch Linux</text>
+    </g>
+    
+    <text x="840" y="660" fill="#ffffff">╰────────────────────────────────────╯</text>
 
   </g>
 </svg>
