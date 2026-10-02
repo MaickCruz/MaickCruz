@@ -1,0 +1,152 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1500"
+  height="900"
+  viewBox="0 0 1500 900"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Maick — Neofetch Profile</title>
+  <desc id="desc">
+    Neofetch-style GitHub profile with Pikachu ASCII art and developer information.
+  </desc>
+
+  <!-- =========================
+       CONFIG
+       ========================= -->
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0d1117"/>
+
+  <!--
+    Main colors
+
+    Background: #0d1117
+    ASCII:      #c9d1d9
+    Accent:     #58a6ff
+
+    Change #58a6ff if you want another accent color.
+  -->
+
+
+  <!-- =========================
+       TERMINAL COMMAND
+       ========================= -->
+
+  <g
+    font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', monospace"
+    font-size="25"
+    fill="#58a6ff"
+  >
+    <text x="38" y="48">╭─maick@github ~</text>
+    <text x="38" y="84">╰─$ neofetch</text>
+  </g>
+
+
+  <!-- =========================
+       PIKACHU ASCII
+       ========================= -->
+
+  <text
+    x="45"
+    y="135"
+    font-family="'DejaVu Sans Mono', 'Noto Sans Mono', monospace"
+    font-size="23"
+    fill="#c9d1d9"
+    xml:space="preserve"
+  >
+    <tspan x="45" dy="0">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣠⣶⣤⣶⣿⣿⣷⣶⣦⣤⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+    <tspan x="45" dy="28">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⠀⢀⣴⡿⢿⣿⣿⠿⠻⠿⢿⣿⣿⣿⣿⣿⣿⣷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+    <tspan x="45" dy="28">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⠟⠋⣴⣦⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠟⠛⠛⢿⡟⠛⠿⢦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+    <tspan x="45" dy="28">⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⣧⠀⠀⠀⠀⠀⣠⡖⠀⠀⢀⣸⡿⠁⠀⠘⠿⣿⣶⣤⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠲⢔⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+    <tspan x="45" dy="28">⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⡀⠀⠀⠀⢸⡇⠀⢀⣴⣿⣿⠃⠀⠀⠀⠀⢀⣼⣿⣿⣿⣉⠻⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠪⣛⢦⣀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+    <tspan x="45" dy="28">⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⡇⠀⠀⠀⠊⠀⣶⣿⣿⣿⣿⠀⠀⠀⠀⣴⣿⣿⣿⡿⠿⠿⢿⣿⣿⣿⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⡝⢷⣄⠀⠀⠀⠀⠀⠀</tspan>
+    <tspan x="45" dy="28">⠀⠀⠀⠀⠀⠀⣴⣿⠟⠉⠉⢿⠀⠀⠀⣀⣼⣿⣿⣿⣿⣿⠀⠀⢀⣾⣿⣿⣿⣿⣿⣿⣿⣶⣦⣀⡙⠿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢦⠙⣷⣄⠀⠀⠀⠀</tspan>
+    <tspan x="45" dy="28">⠀⠀⠀⠀⠀⣼⠟⠁⠀⠀⠀⠈⣧⢀⣾⣿⣿⣿⣿⣿⣿⣿⡀⢀⣾⣿⣿⣿⣿⠖⠀⠀⠉⠉⠛⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢳⡈⢿⣦⠀⠀⠀</tspan>
+    <tspan x="45" dy="28">⠀⠀⠀⢀⡾⠁⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⣼⣿⣿⣿⣿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢣⠈⢿⣧⠀⠀</tspan>
+    <tspan x="45" dy="28">⠀⠀⣰⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣮⣻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡆⠘⣿⣇⠀</tspan>
+    <tspan x="45" dy="28">⠀⠀⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠳⢯⣛⣛⣥⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢷⠀⢹⣿⡄</tspan>
+    <tspan x="45" dy="28">⠀⢰⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣹⣿⣿⣿⣿⣿⡟⠁⠀⠀⠉⠂⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠸⣿⡇</tspan>
+    <tspan x="45" dy="28">⠀⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣶⣾⣿⠿⠿⠿⣿⣿⣿⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⣿⣿</tspan>
+    <tspan x="45" dy="28">⢸⡇⠀⠀⠀⢠⠞⠓⢄⠀⠀⢀⣴⣿⡟⢱⢆⠀⠀⢀⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡼⠀⠀⣿⣿</tspan>
+    <tspan x="45" dy="28">⣸⡇⠀⢀⡴⠁⠀⠀⢀⣷⣿⣿⣿⣿⡀⠃⠈⠀⢀⢚⣿⣿⣿⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡇⠀⠀⣿⣿</tspan>
+    <tspan x="45" dy="28">⣿⡇⢠⠎⠀⠀⠀⠀⠸⠏⠘⡿⠋⠟⠃⠀⠀⠐⠃⢸⣿⣿⣿⣿⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡼⠀⠀⢸⣿⡏</tspan>
+    <tspan x="45" dy="28">⣿⡇⠎⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⢠⠁⠀⠀⠀⠀⠈⡿⣿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡼⠁⠀⢀⣿⣿⠃</tspan>
+    <tspan x="45" dy="28">⢹⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⠀⠀⠀⠀⠀⠀⢇⢻⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡾⠁⠀⢀⣾⣿⠏⠀</tspan>
+    <tspan x="45" dy="28">⠈⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠃⠀⠀⠀⠀⠀⠘⡌⢿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⢠⣿⣿⣿⣿⡃⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⠾⠋⠀⠀⣠⣿⣿⡟⠀⠀</tspan>
+    <tspan x="45" dy="28">⠀⠈⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣦⡙⢿⣿⣿⣿⣿⣿⣿⣷⣤⣄⡀⠉⠙⠻⠿⣷⣤⣀⣀⣀⣤⣤⠶⠞⠋⠁⠀⠀⢀⣴⣿⣿⠏⠀⠀⠀</tspan>
+    <tspan x="45" dy="28">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣶⣍⡛⠿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣴⣿⣿⡿⠃⠀⠀⠀⠀</tspan>
+    <tspan x="45" dy="28">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣷⣮⣝⠻⢿⣿⣿⡿⢿⡿⠦⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣴⣾⣿⣿⠿⠋⠀⠀⠀⠀⠀⠀</tspan>
+    <tspan x="45" dy="28">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⢿⣿⣷⣦⣽⣿⣷⣤⣤⣦⣤⣤⣤⣤⣤⣤⣶⣾⣿⣿⣿⠿⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+    <tspan x="45" dy="28">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠛⠛⠿⠿⣿⣿⣿⣿⣿⣿⠿⠿⠿⠛⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+  </text>
+
+
+  <!-- =========================
+       PROFILE
+       ========================= -->
+
+  <g
+    font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', monospace"
+    font-size="24"
+    fill="#58a6ff"
+  >
+
+    <!-- Header -->
+    <text x="1000" y="180" font-weight="bold">maick@github</text>
+    <text x="1000" y="212">────────────</text>
+
+
+    <!-- Labels -->
+    <g font-weight="bold">
+      <text x="1000" y="270">Role</text>
+      <text x="1000" y="310">Focus</text>
+      <text x="1000" y="350">Backend</text>
+      <text x="1000" y="390">Frontend</text>
+      <text x="1000" y="430">Database</text>
+      <text x="1000" y="470">Project</text>
+      <text x="1000" y="510">OS</text>
+      <text x="1000" y="550">Editor</text>
+      <text x="1000" y="590">Education</text>
+      <text x="1000" y="630">Tools</text>
+      <text x="1000" y="670">Learning</text>
+      <text x="1000" y="710">Status</text>
+    </g>
+
+
+    <!-- Separators -->
+    <g>
+      <text x="1145" y="270">:</text>
+      <text x="1145" y="310">:</text>
+      <text x="1145" y="350">:</text>
+      <text x="1145" y="390">:</text>
+      <text x="1145" y="430">:</text>
+      <text x="1145" y="470">:</text>
+      <text x="1145" y="510">:</text>
+      <text x="1145" y="550">:</text>
+      <text x="1145" y="590">:</text>
+      <text x="1145" y="630">:</text>
+      <text x="1145" y="670">:</text>
+      <text x="1145" y="710">:</text>
+    </g>
+
+
+    <!-- Values -->
+    <g>
+      <text x="1175" y="270">Full-Stack Developer</text>
+      <text x="1175" y="310">Backend / Web</text>
+      <text x="1175" y="350">Java / Spring Boot</text>
+      <text x="1175" y="390">React</text>
+      <text x="1175" y="430">MySQL</text>
+      <text x="1175" y="470">Yggdrasil ERP</text>
+      <text x="1175" y="510">Arch Linux</text>
+      <text x="1175" y="550">Eclipse / VS Code</text>
+      <text x="1175" y="590">ADS @ Facens</text>
+      <text x="1175" y="630">Git / Maven / Linux</text>
+      <text x="1175" y="670">Software Architecture</text>
+      <text x="1175" y="710">building systems</text>
+    </g>
+
+  </g>
+
+</svg>
