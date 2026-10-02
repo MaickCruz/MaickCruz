@@ -12,7 +12,7 @@
   </desc>
 
   <!-- Fundo -->
-  <rect width="100%" height="100%" fill="#212830"/>
+  <rect width="100%" height="100%" fill="#1A1A1A"/>
 
   <!-- =========================
        TERMINAL PROMPT
